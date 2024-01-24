@@ -10,7 +10,11 @@ export default function Home() {
       <div>
         <span className="mb-5 block font-medium sm:mb-4 text-slate-100">Today</span>
         <p className="text-neutral-400">
-          I work as a software engineer intern at Bounce Insights in Dublin.
+          I work as a software engineer intern at {' '} 
+          <a href="https://bounceinsights.com/" target="_blank" rel="noopener noreferrer" className="hover:underline text-neutral-300">
+            Bounce Insights ↗ {" "}
+          </a>
+          ‎ in Dublin.
         </p>
         <div className="mb-3 mt-16 sm:mt-32">
           <span className="mb-5 block font-medium sm:mb-4 text-slate-100">Projects</span>
@@ -30,13 +34,12 @@ export default function Home() {
           <span className="mb-5 block font-medium sm:mb-4 text-slate-100">More</span>
           <span className="text-neutral-400">
             You can connect with me on{' '}
-            <a href="http://linkedin.com/in/ruzzelwidjaja" target="_blank" rel="noopener noreferrer" className="hover:underline">
-              LinkedIn ↗
-
+            <a href="http://linkedin.com/in/ruzzelwidjaja" target="_blank" rel="noopener noreferrer" className="hover:underline text-neutral-300">
+              LinkedIn ↗ 
             </a>
             {' '}or see more of my code on{' '}
-            <a href="http://github.com/ruzzelwidjaja" target="_blank" rel="noopener noreferrer" className="hover:underline">
-              GitHub ↗
+            <a href="http://github.com/ruzzelwidjaja" target="_blank" rel="noopener noreferrer" className="hover:underline text-neutral-300">
+              GitHub ↗ 
             </a>
             .
           </span>
