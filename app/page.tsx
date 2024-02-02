@@ -11,7 +11,7 @@ export default function Home() {
         <span className="mb-5 block font-medium sm:mb-4 text-slate-100">Today</span>
         <p className="text-neutral-400">
           I work as a software engineer intern at {' '} 
-          <a href="https://bounceinsights.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-3 hover:bg-[url('/static/squiggle.svg')] hover:no-underline text-neutral-300">
+          <a href="https://bounceinsights.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-3 hover:bg-[url('/static/Squiggle.svg')] hover:no-underline text-neutral-300">
             Bounce Insights ↗ {" "}
           </a>
           ‎ in Dublin.
